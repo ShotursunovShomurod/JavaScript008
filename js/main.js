@@ -169,7 +169,7 @@
   //     } while (i <= b);
   //     return sum;
   //   }
-  //   console.log(foo(12, 15));
+  //   console.log(foo(10, 18));
   // }
   // masala4
   //   function son(n){
@@ -178,9 +178,9 @@
   //                console.log(i);
   //             }
   //         }
-  //         return `${n} dagi toq sonlar`
+  //         return `${n} dagi toqlar`
   //     }
-  //     // console.log(son(10));
+  //     // console.log(son(12));
   // }
 
   // masala4While
@@ -192,7 +192,7 @@
   //             console.log(i);
   //         }
   //     }
-  //     return `${n} dagi toq sonlar`
+  //     return `${n} dagi toqlar`
   // }
   // console.log(son(10));
   // }
@@ -205,7 +205,7 @@
   //       console.log(i);
   //     }
   //   } while (i > 0);
-  //   return `${n} dagi toq sonlar`;
+  //   return `${n} dagi toqlar`;
   // }
-  // console.log(son(15));
+  // console.log(son(4));
 }
