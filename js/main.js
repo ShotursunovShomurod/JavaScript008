@@ -5,41 +5,32 @@
   // let A = 20;
   // let B = 7;
   // let count = 0;
-
   // while (A >= B) {
   //     A -= B;
   //     count++;
   // }
-
   // console.log("B segmentlarini o'rnatgandan keyin A ning qolgan qismi:", A);
   // // }
-
   // while2
   //   {
   //     let A = 20;
   //     let B = 5;
   //     let count = 0;
-
   //     while (A >= B) {
   //       A -= B;
   //       count++;
   //     }
-
   //     console.log("A dagi B segmentlari soni:", count);
   //   }
-
   // while3
   // {
   //     let N = 17;
   //     let K = 6;
-
   //     while (N >= K) {
   //         N -= K;
   //     }
-
   //     console.log("Sonning qoldigi", N);
   // }
-
   //   // while4
   // {
   //   function while4(n) {
@@ -116,31 +107,33 @@
   //     console.log(foo(4));
   // }
   // masala2While
-  // {
-  //     function foo(array){
-  //         let sum = 0
-  //         let i = 0
-  //         while(i <= array){
-  //             sum = sum + i
-  //             i += 2
+  //   function son(array){
+  //     let juft = 0
+  //     let i = 0
+  //     while (i < array.length){
+  //         if(array[i] % 2 === 0){
+  //             juft += array[i]
   //         }
-  //         return  `juft sonlar yigindisi shunga teng ${sum}`
+  //         i++
   //     }
-  //     console.log(foo(24));
+  //     return juft
+  // }
+  // console.log(son([1,2,4,6,7]));
   // }
   // masala2DoWhile
-  // {
-  //     function foo(array){
-  //         let sum = 0
-  //         let i = 0
-  //         do{
-  //             sum = sum + i
-  //             i += 2
-  //         }while(i <= array)
-  //             return  `juft sonlar yigindisi shunga teng ${sum}`
-  //     }
-  //     console.log(foo(23));
-  // }1
+  //   function son(array){
+  //     let juft = 0
+  //     let i = 0
+  //     do{
+  //         if(array[i] % 2 === 0){
+  //             juft += array[i]
+  //         }
+  //         i++
+  //     }while(i < array.length)
+  //     return juft
+  // }
+  // console.log(son([1,2,4,6,7]));
+  // }
   // masala3For
   // {
   //     function foo(a, b) {
@@ -179,35 +172,40 @@
   //   console.log(foo(12, 15));
   // }
   // masala4
-  // {
-  //     function foo(n){
-  //         for(let i = n; i >= 0; i -= 2){
+  //   function son(n){
+  //     for (let i = n; i >= 0; i--) {
+  //             if (i % 2 !== 0) {
+  //                console.log(i);
+  //             }
+  //         }
+  //         return `${n} dagi toq sonlar`
+  //     }
+  //     // console.log(son(10));
+  // }
+
+  // masala4While
+  //   function son(n){
+  //     let i = n
+  //     while(i > 0){
+  //         i--
+  //         if (i % 2 !== 0) {
   //             console.log(i);
   //         }
   //     }
-  //     console.log(foo(7));
+  //     return `${n} dagi toq sonlar`
   // }
-  // masala4While
-  // {
-  //    function foo(n){
-  //     let i = n
-  //     while(i >= 0){
-  //         console.log(i);
-  //         i -= 2
-  //     }
-  //    }
-  //    console.log(foo(23));
+  // console.log(son(10));
   // }
   // masala4DoWhile
-  // {
-  //     function foo(n){
-  //         let i = n
-  //         do{
-  //             console.log(i);
-  //             i -= 2
-  //         }while(i >= 0)
-  //             return "😁"
+  // function son(n) {
+  //   let i = n;
+  //   do {
+  //     i--;
+  //     if (i % 2 !== 0) {
+  //       console.log(i);
   //     }
-  //     console.log(foo(23));
+  //   } while (i > 0);
+  //   return `${n} dagi toq sonlar`;
   // }
+  // console.log(son(15));
 }
